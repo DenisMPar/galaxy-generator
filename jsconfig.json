@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Base de tu proyecto
+    "paths": {
+      "@/*": ["./src/*"] // Alias para acceder a tu carpeta src
+    }
+  },
+  "include": ["src/**/*"], // Incluye todos los archivos en src
+  "exclude": ["node_modules"] // Excluye node_modules
+}
